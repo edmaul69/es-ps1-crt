@@ -6,44 +6,17 @@
 		<image name="logo">
 			<path>./_inc/system.png</path>
 		</image>
-		<textlist name="gamelist">
-         <selectorColor>0000ff50</selectorColor>
-         <selectedColor>00ffff</selectedColor>
-      </textlist>
-	</view>
-
-	<view name="system">
-                <image name="systemsnap" extra="true">
-                   <origin>0 .5</origin>
-                   <pos>0.4 0.5</pos>
-                   <maxSize>0.55 0.67</maxSize>
-                   <zIndex>11</zIndex>
-                   <path></path>
-                </image>
-                 <image name="systemlogo" extra="true">
-                   <origin>.5 .5</origin>
-                   <pos>.7 0.75</pos>
-                   <maxSize>0.35 0.35</maxSize>
-                   <zIndex>12</zIndex>
-                   <path></path>
-                </image>
-	</view>
-	
-	<view name="basic">
-      <image name="console" extra="true">
-         <origin>.5 .5</origin>
-         <pos>0.70 0.55</pos>
-         <maxSize>0.35 0.35</maxSize>
-         <path></path>
-          <zIndex>50</zIndex>
-         </image>
-    <textlist name="gamelist">
+		    <textlist name="gamelist">
       <pos>0.025 0.2170</pos>
       <size>0.950 0.62</size>
       <alignment>center</alignment>
       <horizontalMargin>0.00</horizontalMargin>
       <forceUppercase>1</forceUppercase>
-    </textlist>
+      <selectorColor>0000ff50</selectorColor>
+      <selectedColor>00ffff</selectedColor>
+      </textlist>
+	</view>
+	<view name="basic, detailed, video">
       <helpsystem name="help">
 	 <pos>0.070 0.870</pos>
          <textColor>FFFFFF</textColor>
@@ -51,5 +24,5 @@
          <fontPath>./../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
          <fontSize>0.03</fontSize>
       </helpsystem>
-    </view>
+</view>
 </theme>

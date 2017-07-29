@@ -21,13 +21,7 @@
          <path>./../_inc/images/background.png</path>
       </image>
 
-       <image name="mainmenu" extra="true">
-         <origin>1 0.5</origin>
-         <pos>.90 0.10</pos>
-         <maxSize>0.20 0.20</maxSize>
-          <path></path>
-      </image>
-      <text name="systemInfo">
+         <text name="systemInfo">
          <pos>0.0001 0.855</pos>
          <backgroundColor>00000000</backgroundColor>
          <color>FFFFFF</color>
@@ -57,13 +51,7 @@
       <horizontalMargin>0.00</horizontalMargin>
       <forceUppercase>1</forceUppercase>
     </textlist>
-      <helpsystem name="help">
-	 <pos>0.070 0.870</pos>
-         <textColor>FFFFFF</textColor>
-         <iconColor>FFFFFF</iconColor>
-         <fontPath>./../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
-         <fontSize>0.03</fontSize>
-      </helpsystem>
+
       <image name="background" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
@@ -71,39 +59,7 @@
          <path>./../_inc/images/background3.png</path>
       </image>
 	</view>
-
-	<view name="system">
-                <image name="systemsnap" extra="true">
-                   <origin>0 .5</origin>
-                   <pos>0.4 0.5</pos>
-                   <maxSize>0.55 0.67</maxSize>
-                   <zIndex>11</zIndex>
-                   <path></path>
-                </image>
-                 <image name="systemlogo" extra="true">
-                   <origin>.5 .5</origin>
-                   <pos>.7 0.75</pos>
-                   <maxSize>0.35 0.35</maxSize>
-                   <zIndex>12</zIndex>
-                   <path></path>
-                </image>
-	</view>
-	
-	<view name="basic">
-      <image name="console" extra="true">
-         <origin>.5 .5</origin>
-         <pos>0.70 0.55</pos>
-         <maxSize>0.35 0.35</maxSize>
-         <path></path>
-          <zIndex>50</zIndex>
-         </image>
-    <textlist name="gamelist">
-      <pos>0.025 0.2170</pos>
-      <size>0.950 0.62</size>
-      <alignment>center</alignment>
-      <horizontalMargin>0.00</horizontalMargin>
-      <forceUppercase>1</forceUppercase>
-    </textlist>
+      <view name="basic, detailed, video">
       <helpsystem name="help">
 	 <pos>0.070 0.870</pos>
          <textColor>FFFFFF</textColor>
@@ -111,6 +67,5 @@
          <fontPath>./../_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
          <fontSize>0.03</fontSize>
       </helpsystem>
-
-    </view>
+	</view>
 </theme>
