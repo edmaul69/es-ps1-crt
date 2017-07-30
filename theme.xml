@@ -1,6 +1,6 @@
 <!--
 theme name:     PlayStation CRT
-version         1.3
+version         1.4
 Created by Lostless and Edmaul69
 Splatter logos Created by Lostless
 Special thank you to Lostless for all his work in this theme and 
@@ -44,17 +44,7 @@ in his hd version that jumpstarted this theme.
 		</text>
    </view>
 </feature>
-   <view name="system,basic,detailed,video">
-      <helpsystem name="help">
-	 <pos>0.070 9.870</pos>
-         <textColor>1C1C53</textColor>
-         <iconColor>1C1C53</iconColor>
-         <fontPath>./_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
-         <fontSize>0.03</fontSize>
-      </helpsystem>
-   </view>
-
-   <view name="system,basic,detailed,video">
+   <view name="system">
       <helpsystem name="help">
 	 <pos>0.070 9.870</pos>
          <textColor>1C1C53</textColor>
@@ -66,8 +56,10 @@ in his hd version that jumpstarted this theme.
 
    <view name="basic,detailed,video">
       <textlist name="gamelist">
-         <pos>0.025 0.2170</pos>
+         <pos>0.025 0.2110</pos>
          <size>0.950 0.62</size>
+      <alignment>center</alignment>
+      <horizontalMargin>0.00</horizontalMargin>
          <selectorColor>0000ff50</selectorColor>
          <selectedColor>00ffff</selectedColor>
          <primaryColor>FFFFFF</primaryColor>
@@ -78,9 +70,7 @@ in his hd version that jumpstarted this theme.
          <scrollSound>./_inc/sound/click.wav</scrollSound>
          <alignment>center</alignment>
       </textlist>
-   </view>
 
-   <view name="detailed,video,basic">
       <image name="background" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
@@ -92,15 +82,18 @@ in his hd version that jumpstarted this theme.
          <pos>0.23 0.135</pos>
          <maxSize>0.40 0.40</maxSize>
       </image>
-        <textlist name="gamelist">
-         <pos>0.03 0.163</pos>
-         <size>0.4 0.75</size>
-         <alignment>left</alignment>
-      </textlist>
+
+
+      <helpsystem name="help">
+	 <pos>0.070 0.870</pos>
+         <textColor>FFFFFF</textColor>
+         <iconColor>FFFFFF</iconColor>
+         <fontPath>./_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+         <fontSize>0.03</fontSize>
+      </helpsystem>
+
    </view>
    
-
    
- 
 </theme>
 as the main theme.xml. I think i got the original look down, except the 3 splatters instead of 2. and if you want theres still room for cons
