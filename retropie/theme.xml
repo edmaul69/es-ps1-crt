@@ -40,6 +40,12 @@
 		<image name="logo">
 			<path>./_inc/system.png</path>
 		</image>
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/images/background3.png</path>
+      </image>
 
 	</view>
 </theme>
