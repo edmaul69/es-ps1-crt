@@ -1,6 +1,6 @@
 <!--
 theme name:     PlayStation CRT
-version         1.1
+version         1.2
 Created by Lostless and Edmaul69
 Splatter logos Created by Lostless
 -->
@@ -14,10 +14,10 @@ Splatter logos Created by Lostless
    <view name="system">
       <carousel name="systemcarousel">
         <type>vertical</type>
-        <pos>0.00 0.050</pos>
-        <size>0.700 0.72</size>
-        <logoScale>2.1</logoScale>
-        <logoSize>0.30 0.2</logoSize>
+        <pos>0.02 0.10</pos>
+        <size>0.50 0.72</size>
+        <logoScale>1.2</logoScale>
+        <logoSize>0.40 0.2</logoSize>
         <color>00000000</color>
         <maxLogoCount>3</maxLogoCount>
       </carousel>
@@ -101,3 +101,4 @@ Splatter logos Created by Lostless
    
  
 </theme>
+as the main theme.xml. I think i got the original look down, except the 3 splatters instead of 2. and if you want theres still room for cons
