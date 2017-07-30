@@ -1,5 +1,6 @@
 # es-ps1-crt
-Emulationstation Ps1 theme for use with crt's.
+Emulationstation Ps1 theme designed especially for use with crt's.
+Will work on other resolutions an tv's as well.
 Version 1.3. 
 Added dithering and low rez images.
 Special thank you to lostless for all his splatter screens, dithering and xml work. 
