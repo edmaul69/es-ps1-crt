@@ -32,6 +32,7 @@
 			<color>FFFFFF</color>
 			<forceUppercase>true</forceUppercase>
 		</text>
+
    </view>
 </feature>
 
@@ -44,7 +45,7 @@
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
-         <path>./_inc/images/background3.png</path>
+         <path>./../_inc/images/background3.png</path>
       </image>
 
 	</view>
